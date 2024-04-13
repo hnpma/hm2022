@@ -1,4 +1,18 @@
-console.log("Hello hm2022")
+// function(exitButton){
+//     document.getElementById("exit");
+// }
+function init () {
+    const missionAbort = document.getElementById("leave a comment");
+    const button = document.getElementById("exit");
+    const paragraph = document.getElementById("statusReport");
+    //button.addEventListener("click",function(exitButton))
+    let div = document.createElement('div');
+    div.classList.add('exitmenu')
+
+    
+}
+
+window.addEventListener("load", init);
 
 
 // function init () {
