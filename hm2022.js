@@ -1,6 +1,6 @@
-// function(exitButton){
-//     document.getElementById("exit");
-// }
+function(exitButton){
+    document.getElementById("exit");
+}
 function init () {
     const missionAbort = document.getElementById("leave a comment");
     const button = document.getElementById("exit");
@@ -9,7 +9,7 @@ function init () {
     let div = document.createElement('div');
     div.classList.add('exitmenu')
 
-    
+
 }
 
 window.addEventListener("load", init);
