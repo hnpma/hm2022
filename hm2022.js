@@ -1,0 +1,13 @@
+console.log("Hello hm2022")
+
+
+// function init () {
+//     const missionAbort = document.getElementById("leave a comment");
+//     const button = document.getElementById("Select a photo album");
+//     const paragraph = document.getElementById("statusReport");
+
+//     // Put your code for the exercises here.
+//     button.addEventListener("click",function(event))
+// }
+
+// window.addEventListener("load", init);
