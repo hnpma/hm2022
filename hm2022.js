@@ -14,7 +14,17 @@ function exit(){
     var bye = console.log(d+f);
     document.getElementById("exit protocol").value = d;
 }
-
+var Student = new Object();
+Student.marks = 100;
+Student.name = "Hannah";
+Student.rollno = 1;
+function FetchStuDetails(){
+    console.log("Name: "+Student.name);
+    console.log("Marks: "+ Student.marks);
+    console.log("Roll Number: "+Student.rollno);
+}
+Student.details = FetchStuDetails;
+Student.details();
 
 
 // 2:42 PM 5/2/2024
